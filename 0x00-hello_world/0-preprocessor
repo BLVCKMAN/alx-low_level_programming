@@ -1,8 +1,1 @@
- #include <stdio.h>
- 
- /**
-  * main - Entry point
-  *
-  * Return: Always 0 (Success)
-  */
-export CFILE=0-main.c ; ./0-preprocessor
+#!/bin/bash
