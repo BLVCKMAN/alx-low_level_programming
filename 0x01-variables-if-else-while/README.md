@@ -1,2 +1,0 @@
-midnight work.c
-lol
