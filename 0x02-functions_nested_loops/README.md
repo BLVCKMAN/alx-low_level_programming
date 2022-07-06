@@ -1,3 +1,5 @@
-set paste for paste mode
+Readme file for nested loops
 
-set nopaste for normal mode
+creating a header file
+
+creating a .c and .h file.
