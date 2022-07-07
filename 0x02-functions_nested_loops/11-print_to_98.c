@@ -1,34 +1,37 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * putformat - formatted characters to output
- * @n: number to format
- * Return: nothing
+ * print_to_98 - Description
+ * @n: A input integer
+ * Description: function that prints all natural numbers
+ * from n to 98, followed by a new line.
+ * Return: Nothing
  */
-void putformat(int n)
+void print_to_98(int n)
 {
-	if (n <= 9)
+	if (n <= 98)
 	{
-		_putchar(',');
-		_putchar(' ');
-		_putchar(' ');
-		_putchar(' ');
-		_putchar(n + '0');
-	}
-	else if (n > 9 && n <= 99)
-	{
-		_putchar(',');
-		_putchar(' ');
-		_putchar(' ');
-		_putchar(n / 10 + '0');
-		_putchar(n % 10 + '0');
+		for (; n <= 98; n++)
+		{
+			printf("%d", n);
+
+			if (n == 98)
+				continue;
+			printf(", ");
+		}
+		printf("\n");
 	}
 	else
 	{
-		_putchar(',');
-		_putchar(' ');
-		_putchar(n / 100 + '0');
-		_putchar(n / 10 % 10 + '0');
-		_putchar(n % 10 + '0');
+		for (; n >= 98; n--)
+		{
+			printf("%d", n);
+
+			if (n == 98)
+				continue;
+			printf(", ");
+		}
+		printf("\n");
 	}
 }
