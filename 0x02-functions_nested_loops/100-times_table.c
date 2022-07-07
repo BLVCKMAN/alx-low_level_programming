@@ -28,7 +28,7 @@ void print_times_table(int n)
  */
 void putformat(int n)
 {
-	if (n <= 0)
+	if (n <= 1)
 	{
 		_putchar(',');
 		_putchar(' ');
