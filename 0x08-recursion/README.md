@@ -1,0 +1,10 @@
+recursions
+recursion
+recursio
+recursi
+recurs
+recur
+recu
+rec
+re
+r
